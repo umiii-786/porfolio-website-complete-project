@@ -90,7 +90,6 @@
     margin: auto;
     min-height: 90vh;
     margin-bottom: 10px;
-    /* border:2px solid red; */
 }
 
 .intro h1 {
@@ -102,6 +101,9 @@
 .form {
     display: flex;
     flex-direction: column;
+
+    margin-left: 10px;
+    margin-right: 15px;
 }
 
 .input {
@@ -143,6 +145,7 @@
     width: 80px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 10px;
     border-radius: 5px;
     border: 1px solid rgb(179, 13, 179);
     background-color: rgb(179, 13, 179);

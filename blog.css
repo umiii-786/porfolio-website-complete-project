@@ -107,9 +107,11 @@
 
 .service-about {
     display: flex;
-    height:180px;
+    min-height:180px;
     max-width:700px;
     margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 .service-img{
     max-width:300px;
@@ -130,8 +132,9 @@
 }
 
 .service-content h2{
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     font-family: 'Roboto Mono', monospace;
+    font-size: 22px;
     color: rgb(179, 13, 179);
 }
 
@@ -243,20 +246,20 @@ background:rgba(179, 13, 179, 0.859) ;
     .service-about{
         flex-direction: column;
         align-items: center;
-        height:500px;
+        min-height:500px;
         max-width:800px;
-margin-top: 120px;
     }
     .service-img{
-        height:300px;
+        height:250px;
         max-width:400px
     }
     .service-content{
         max-width:600px;
         margin-top: 20px;
+      
     }
     .service-content p{
-        /* text-align: center; */
+       
         padding: 0px 10px;
         font-size: 18px;
     }
@@ -269,5 +272,11 @@ margin-top: 120px;
     }
     .readbtn{
         margin-top: 5px;
+    }
+    .service-content h2{
+        text-align: center;
+    }
+    #footer{
+        margin-top: 20px;
     }
 }
