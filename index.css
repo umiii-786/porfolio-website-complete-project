@@ -168,14 +168,14 @@
 
 
 .py {
-    max-width: 260px;
+    max-width: 200px;
     height: 8px;
     background-color: yellow;
     margin-bottom: 15px;
 }
 
 .java {
-    max-width: 180px;
+    max-width: 250px;
     height: 8px;
     background-color: red;
     margin-bottom: 15px;
